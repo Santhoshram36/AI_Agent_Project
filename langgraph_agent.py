@@ -8,8 +8,8 @@ from typing import TypedDict, Literal
 from langchain_core.messages import ToolMessage, SystemMessage, HumanMessage, AIMessage
 
 # Set API Keys
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "enter your api here"
+os.environ["TAVILY_API_KEY"] = "enter your api here"
 
 # Initialize LLM
 llm = ChatOpenAI(model="gpt-4o", max_tokens=300, temperature=0.5)
