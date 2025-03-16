@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from langchain.schema import HumanMessage
-from langgraph_agent_example import agent
+from langgraph_agent import agent
 
 app = FastAPI()
 
